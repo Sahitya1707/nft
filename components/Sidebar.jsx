@@ -30,17 +30,17 @@ const Sidebar = () => {
         <div className="flex flex-col items-center">
           <div
             className="w-[72px] h-[72px] rounded-full 
-          border_design  
+        
           
           
-          relative  p-[3px] "
+          relative  p-[3px] border-[#f8a9101a] border-2 "
           >
             {/* <span></span> */}
 
             <img
               src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/ad55b5129002333.6161ca5983d3b.jpg"
               alt=""
-              className=" rounded-full border-2 border-[#f8a9101a]"
+              className=" rounded-full border-2 "
             />
             {/* <span className="border-overlap"></span> */}
           </div>
