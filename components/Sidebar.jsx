@@ -37,14 +37,14 @@ const Sidebar = () => {
         
           
           
-          relative  p-[3px] border-[#f8a9101a] border-[4px] "
+          relative  p-[3px] border-[#FFC148] border-[4px] border-r-[4px] border-r-[#f8a9101a] border-b-[#f8a9101a] "
           >
             {/* <span></span> */}
 
             <img
               src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/ad55b5129002333.6161ca5983d3b.jpg"
               alt=""
-              className=" rounded-full border-2 "
+              className=" rounded-full  "
             />
             {/* <span className="border-overlap"></span> */}
           </div>

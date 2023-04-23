@@ -5,20 +5,3 @@
 body {
   background-color: rgb(72, 72, 72);
 }
-.shadow {
-  box-shadow: 2px 2px 2px;
-}
-
-.border_design {
-  border-radius: 50%;
-  border: 0px solid;
-  /* margin: 1px; */
-  background-image: linear-gradient(
-    to bottom right,
-    #ffc148 72%,
-    rgba(248, 169, 16, 0.1) 28%
-  );
-}
-#google-font {
-  font-size: 12px;
-}
