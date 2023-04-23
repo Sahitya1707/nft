@@ -55,11 +55,15 @@ const HighlightsCard = (props) => {
         <img
           src={`${image}`}
           alt=""
-          className={`w-[52px] h-[52px] rounded-[8px] shadow-[10px_12px_30px_20px_${color}2b]`}
+          className={`w-[52px] h-[52px] rounded-[8px] `}
+          style={{ boxShadow: `10px 12px 30px 20px ${color}2b` }}
         />
         <div className="mx-2 mb-8">
           <p className={`text-[white] text-[14px] font-[500]`}>{title}</p>
-          <p className={`text-[${color}] text-[12px] font-[400] px-2 my-1`}>
+          <p
+            className={` text-[12px] font-[400] px-2 my-1`}
+            style={{ color: `${color}` }}
+          >
             {detail}
           </p>
         </div>

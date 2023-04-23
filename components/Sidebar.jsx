@@ -1,5 +1,7 @@
 import React from "react";
 
+const colors = ["#a2a2a2", "#FFC148"];
+
 const CommunitiesImage = (props) => {
   const { image } = props;
   return (
@@ -15,8 +17,10 @@ const CommunitiesImage = (props) => {
 const CommunitiesContent = (props) => {
   const { content, color } = props;
   return (
+    // tailwind css does not support the dynamic colors so I passed the inline style method
     <p
-      className={`text-[12px] font-[500]  px-[10px] py-[3px] border-[1px]  rounded-[12px] flex items-center my-1 mr-1 border-[${color}] text-[${color}]`}
+      className={`text-[12px] font-[500]  px-[10px] py-[3px] border-[1px]  rounded-[12px] flex items-center my-1 mr-1  text-[${color}]`}
+      style={{ borderColor: `${color}` }}
     >
       {content}
     </p>
