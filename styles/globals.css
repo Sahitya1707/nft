@@ -5,3 +5,8 @@
 body {
   background-color: rgb(72, 72, 72);
 }
+
+/* used this id as cause while I was hosting my project google icon was not taking my font */
+#google-font {
+  font-size: 12px;
+}
