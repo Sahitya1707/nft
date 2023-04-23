@@ -7,7 +7,10 @@ const Profile = (props) => {
       <p className="text-[#A2A2A2] ">{name}</p>
       <div className="text-[white] flex items-center">
         <p>{number}</p>
-        <span class="material-symbols-outlined text-[12px] pl-1">
+        <span
+          class="material-symbols-outlined text-[12px] pl-1"
+          id="google-font"
+        >
           change_history
         </span>
       </div>
@@ -24,7 +27,10 @@ const TimePx = (props) => {
         {pxNumber ? (
           <p className="text-[white]">
             {pxNumber}
-            <span class="material-symbols-outlined text-[12px] px-2">
+            <span
+              class="material-symbols-outlined text-[12px] px-2"
+              id="google-font"
+            >
               change_history
             </span>
           </p>

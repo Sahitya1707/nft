@@ -33,7 +33,7 @@ const Sidebar = () => {
         
           
           
-          relative  p-[3px] border-[#f8a9101a] border-2 "
+          relative  p-[3px] border-[#f8a9101a] border-[4px] "
           >
             {/* <span></span> */}
 
